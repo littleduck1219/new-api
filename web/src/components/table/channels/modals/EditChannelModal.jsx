@@ -2797,7 +2797,7 @@ const EditChannelModal = (props) => {
                       <Form.Input
                         field='other'
                         label={t('知识库 ID')}
-                        placeholder={'请输入知识库 ID，例如：123456'}
+                        placeholder={t('请输入知识库 ID，例如：123456')}
                         onChange={(value) => handleInputChange('other', value)}
                         showClear
                       />
@@ -2807,9 +2807,9 @@ const EditChannelModal = (props) => {
                       <Form.Input
                         field='other'
                         label='Account ID'
-                        placeholder={
-                          '请输入Account ID，例如：d6b5da8hk1awo8nap34ube6gh'
-                        }
+                        placeholder={t(
+                          '请输入Account ID，例如：d6b5da8hk1awo8nap34ube6gh',
+                        )}
                         onChange={(value) => handleInputChange('other', value)}
                         showClear
                       />
@@ -2819,7 +2819,7 @@ const EditChannelModal = (props) => {
                       <Form.Input
                         field='other'
                         label={t('智能体ID')}
-                        placeholder={'请输入智能体ID，例如：7342866812345'}
+                        placeholder={t('请输入智能体ID，例如：7342866812345')}
                         onChange={(value) => handleInputChange('other', value)}
                         showClear
                       />
